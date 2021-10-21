@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* header section */
+header{
+    width: 1520;
+    height: 56;
+    position: relative;
+
+    
+}
+header .container{
+    width: 98%;
+    height: 56;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 16px;
+    align-items: center;
+    padding-top: 8px;
+    background-color:white;
+    position: fixed;
+    left: 50px;
+    
+
+    
+    
+}
+
+header .nav-bar-icon{
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+    
+}
+header .nav1{
+    width: 187px;
+    height: 48px;
+    padding: 14px;
+    display: flex;
+    align-items: center;
+}
+header .nav2{
+    width: 728px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+
+}
+header .nav2 input{
+    height: 40px;
+    width: 572px;
+}
+.nav2 button{
+    width: 64px;
+    height: 40px;
+}
+header .nav2 button{
+    
+}
+header .nav3 {
+    width: 225px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+header .nav3 .video-plus, .apps-icon,.bell-icon{
+    width: 26px;
+    height: 26px;
+
+}
+header .nav3 .profile-icon{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+header .nav3 .pro{
+    border-radius: 50%;
+    width: 36px;
+    height: 28px;
+}
+header .youtube-icon{
+    width: 90px;
+    height: 20px;
+}
+/* left nav */
+nav{
+    display: flex;
+}
+nav .left-nav{
+    width: 50px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    position: fixed;
+    
+}
+nav .left-nav img{
+    width: 24px;
+    height: 24px;
+    margin: 30px 8px 0px 15px;
+    
+}
+nav .left-nav p{
+    margin: 0px 2px 0px 12px;
+    font-size: 12px;
+}
+nav .left-nav p.Subscribtion{
+
+    margin-left: 5px;
+    font-size: 11px;
+}
+/* top nav bar */
+nav .top-nav{
+    height: 56px;
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    position: fixed;
+    top: 56px;
+    left: 30px;
+    background-color: white;
+} 
+nav .top-nav div{
+    margin-top: 5px;
+    border: solid 1px rgb(180, 179, 180);
+    height: 32px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.05);
+    color: #030303;
+    font-size: 14px;
+}
+/* Main */
+main .container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    margin-bottom: 60px;
+    
+}
+main .container:nth-child(1){
+    margin-top: 100px;
+}
+main .container div.video-player{
+    width: 300px;
+    height: 296px;
+    background-color:#fff;
+    margin-left: 15px;
+}
+main .container div.video-player .player-icon{
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+}
+.video-para{
+    display: flex;
+}
+.video-para h3{
+    margin-left:15px;
+}
+.video-player .video-para1{
+    color: #030303;
+    
+}
+.video-player .video-para2{
+    color: #606060;
+    padding-left: 46px;
+
+}
+video{
+    height: 233px;
+    width: 291px;
+}
+.video1:hover{
+    cursor:pointer;
+}
